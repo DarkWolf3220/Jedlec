@@ -1,0 +1,99 @@
+body{
+    font-size: 20px;
+    background-color: #494949;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+/* Banner */
+
+.logo-img{
+    width: 18%;
+    height: 180px;
+    float: left;
+}
+
+.banner-img{
+    height: 180px;
+    width: 82%;
+    float: left;
+}
+
+/* Navbar */
+
+.navbar{
+    float: left;
+    font-size: 24px;
+    color: white;
+    height: 5%;
+    width: 100%;
+    background-color: #313131;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar a{
+    color: white;
+}
+
+.navbar a:hover{
+    color: gold;
+    transition: 0.3s;
+}
+
+.login{
+    float: right;
+    padding-right: 20px;
+    padding-left: 15px;
+}
+
+.home{
+    float: left;
+    padding-right: 15px;
+    padding-left: 20px;
+}
+
+.forum{
+    float: left;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.gallery{
+    float: left;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.help{
+    float: left;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/* Footer */
+
+.footer{
+    width: 100%;
+    padding-top: 15px;
+    text-align: center;
+    height: 40px;
+    background-color: #313131;
+    float: left;
+}
+
+
+
+
+
