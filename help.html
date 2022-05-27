@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/help.css">
     <link rel="icon" href="img/church.png" type="image/png">
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -19,8 +19,7 @@
           <img class="banner-img" src="img/banner.png" alt="Jedlec">
         </div>
 
-        <div class="navbar">
-    
+        <nav class="navbar">
           <a class="home" href="index.html">
             <span class="material-icons">home</span>
             Strona Główna
@@ -44,12 +43,33 @@
             <span class="material-icons">login</span>
             Zaloguj
           </a>
-        </div>
+        </nav>
       </header>  
 
       <article>
         <div class="main">
-          
+          <form>
+              <div class="form-title">
+                Formularz zgłaszania problemów
+              </div>
+
+              <div class="form-inputs">
+                <span>Wybierz typ problemu:</span> 
+                <select class="problem-type" name="problem-type" size="1">
+                    <option name="website">1.Problem ze stroną</option>
+                    <option name="account">2.Problem z kontem</option>
+                    <!-- <option name="report">3.Zgłaszenie osoby</option> -->
+                    <option name="other">3.Inne</option>
+                </select>
+                <br />
+                <textarea class="problem" name="problem" rows="15" cols="80" placeholder="Opisz twój problem..."></textarea>
+              </div>
+
+              <div class="form-buttons">
+                <input class="send" type="submit" value="Wyślij zgłoszenie">
+                <input class="reset" type="reset" value="Wyczyść">
+              </div>
+          </form>
         </div>
       </article>
     </div>

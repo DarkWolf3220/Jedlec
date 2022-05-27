@@ -69,14 +69,6 @@ a{
     padding-left: 15px;
 }
 
-.navbar .home{
-    color: gold;
-}
-
-.navbar .home:hover{
-    color: rgb(230, 169, 18);
-}
-
 .forum{
     float: left;
     padding-right: 15px;
@@ -95,6 +87,14 @@ a{
     padding-left: 15px;
 }
 
+.navbar .help{
+    color: gold;
+}
+
+.navbar .help:hover{
+    color: rgb(230, 169, 18);
+}
+
 .login{
     float: right;
     padding-right: 15px;
@@ -104,7 +104,87 @@ a{
 /* Main */
 
 .main{
-    height: 1200px;
+    height: 1000px;
+}
+
+/* Form title */
+
+.form-title{
+    float: left;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+    width: 100%;
+    height: 10%;
+}
+
+/* Form type */
+
+.form-inputs{
+    float: left;
+    width: 100%;
+    font-size: 20px;
+    height: 80%;
+    padding-top: 10px;
+    text-align: center;
+    
+}
+
+.form-inputs .problem-type{
+    font-size: 15px;
+    border-radius: 6px;
+    border: rgb(26, 26, 26) 2px solid;
+    background-color: #a8a8a8;
+    cursor: pointer;
+}
+
+/* Description form */
+
+.problem{
+    margin-top: 15px;
+    border-radius: 10px;
+    border: rgb(26, 26, 26) 2px solid;
+    background-color: #a8a8a8;
+    font-size: 18px;
+}
+
+/* Form buttons */
+
+.form-buttons{
+    width: 100%;
+    text-align: center;
+    float: left;
+    padding-top: 20px;
+}
+
+.send{
+    font-size: 20px;
+    border: rgb(26, 26, 26) 2px solid;
+    border-radius: 10px;
+    padding: 4px;
+    background-color: #a8a8a8;
+}
+
+.send:hover{
+    color: gold;
+    background-color: #313131;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.reset{
+    font-size: 20px;
+    border: rgb(26, 26, 26) 2px solid;
+    border-radius: 10px;
+    padding: 4px;
+    background-color: #a8a8a8;
+}
+
+.reset:hover{
+    color: gold;
+    background-color: #313131;
+    transition: 0.3s;
+    cursor: pointer;
 }
 
 /* Footer */
